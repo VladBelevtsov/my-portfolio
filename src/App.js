@@ -5,8 +5,6 @@ import { CloseOutline } from 'react-ionicons'
 
 import Link from './components/Link.js'
 
-import mainGif from './giphy.gif'
-
 function Tilt (props) {
   const { options, ...rest } = props
   const tilt = useRef(null)
